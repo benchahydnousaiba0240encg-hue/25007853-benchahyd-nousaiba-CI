@@ -1,1 +1,24 @@
+# Fiche du sujet CI02
 
+## Sujet attribué
+- **Code** : CI02
+- **Titre** : Prévision des importations agricoles
+- **Type** : régression et prévision (séries temporelles)
+- **Question du catalogue** : anticiper les quantités importées de céréales et de sucre
+- **Modèles suggérés** : régression, séries temporelles
+- **Sources suggérées** : UN Comtrade (S1) et FAOSTAT (S6)
+
+## Adaptation retenue pour l'épreuve
+- **Produit** : blé (code SH 1001)
+- **Partenaire** : France
+- **Flux** : importations des pays déclarants en provenance de France
+- **Période** : 2009–2025, fréquence annuelle
+- **Source utilisée** : UN Comtrade (licence UN Open Data)
+- **Variable cible** : valeur des importations en USD (`primaryValue`)
+- **Algorithme principal** : Random Forest Regressor (n° 5 des 29 du cours)
+
+## Références
+- UN Comtrade : https://comtradeplus.un.org/
+- FAOSTAT : https://www.fao.org/faostat/en/
+- Documentation scikit-learn, `RandomForestRegressor` : https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+- Énoncé du contrôle continu, Partie B (A. Larhlimi, ENCG Settat, 2026–2027)
