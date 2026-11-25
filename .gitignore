@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Secrets (jamais dans le dépôt)
+.env
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Fichiers temporaires Office
+~$*
+*.tmp
